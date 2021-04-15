@@ -8,4 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#228B22</color>
+    <color name="Charcoal">#2E4057</color>
+    <color name="shiny">#66A182</color>
+    <color name="shiny2">#9AC1AC</color>
+    <color name="tea">#caffb9</color>
+    <color name="mint">#aef78e</color>
+    <color name="june">#c0d461</color>
+    <color name="gray">#C4C4C4</color>
 </resources>
