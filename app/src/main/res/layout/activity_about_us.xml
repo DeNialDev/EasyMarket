@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
-    tools:context=".MainActivity">
+    tools:context=".AboutUs"
+    android:background="@color/white">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,28 +17,22 @@
 
         <include
             layout="@layout/main_toolbar"/>
-        
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/RecycleView"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:padding="50dp"
-            android:layout_marginTop="10dp"
-            />
-
+            android:layout_height="match_parent"
+            android:text="AboutUs"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
     </LinearLayout>
-
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/white">
-
+        android:layout_gravity="start">
         <include
             layout="@layout/main_nav_drawer"/>
-      </RelativeLayout>
+    </RelativeLayout>
 
 
 
