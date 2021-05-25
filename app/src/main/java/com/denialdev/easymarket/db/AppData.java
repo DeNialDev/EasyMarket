@@ -11,7 +11,7 @@ import java.util.Locale;
 @Database(entities = {Category.class, Items.class}, version =  1)
 public abstract class AppData extends RoomDatabase {
     public static AppData INSTANCE;
-
+    public abstract ShoppingList shoppingListDao();
     public static AppData getDBInstance(Context context){
         if (INSTANCE == null){
             INSTANCE = Room.databaseBuilder(context.getApplicationContext(), AppData.class, "AppDB").allowMainThreadQueries().build();

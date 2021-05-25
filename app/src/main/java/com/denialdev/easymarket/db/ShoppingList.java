@@ -15,10 +15,10 @@ public interface ShoppingList {
     List<Category> getAllCategoriesList();
 
     @Insert
-    void InsertCategory(Category...categories);
+    void insertCategory(Category...categories);
 
     @Update
-    void UpdateCategory(Category category);
+    void updateCategory(Category category);
 
     @Delete
     void deleteCategory(Category category);
